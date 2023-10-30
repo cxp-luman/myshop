@@ -1,0 +1,85 @@
+2023-09-02T00:43:39.256+0800	INFO	initialize/config.go:81	get config from nacos	{"GoodsSrvInfo": {"name":"","mysql_info":{"host":"","port":0,"db":"","user":"","password":""},"consul_info":{"host":"","port":0}}}
+2023-09-02T00:43:39.257+0800	FATAL	initialize/db.go:39	init mysql connect faild!
+myshop/goods_srv/internal/initialize.InitDB
+	/Users/bytedance/cxp/Go/myshop/goods_srv/internal/initialize/db.go:39
+main.main
+	/Users/bytedance/cxp/Go/myshop/goods_srv/main.go:29
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-09-02T00:45:20.635+0800	PANIC	initialize/config.go:81	get config from nacos	{"GoodsSrvInfo": {"name":"","mysql_info":{"host":"","port":0,"db":"","user":"","password":""},"consul_info":{"host":"","port":0}}}
+myshop/goods_srv/internal/initialize.InitConfig
+	/Users/bytedance/cxp/Go/myshop/goods_srv/internal/initialize/config.go:81
+main.main
+	/Users/bytedance/cxp/Go/myshop/goods_srv/main.go:28
+runtime.main
+	/usr/local/go/src/runtime/proc.go:250
+2023-09-02T00:49:38.265+0800	INFO	goods_srv/main.go:35	port: 54769
+2023-09-03T14:59:59.360+0800	INFO	goods_srv/main.go:84	注销失败
+2023-09-03T14:59:59.361+0800	INFO	goods_srv/main.go:86	注销成功
+2023-09-03T15:00:05.879+0800	INFO	goods_srv/main.go:35	port: 51419
+2023-09-03T15:08:00.238+0800	INFO	goods_srv/main.go:86	注销成功
+2023-09-03T15:08:06.526+0800	INFO	goods_srv/main.go:35	port: 51790
+2023-09-03T15:11:59.669+0800	INFO	goods_srv/main.go:86	注销成功
+2023-09-03T15:13:07.919+0800	INFO	goods_srv/main.go:35	port: 51919
+2023-09-03T15:13:55.117+0800	INFO	goods_srv/main.go:35	port: 51943
+2023-09-03T15:15:04.526+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-03T15:15:09.934+0800	INFO	goods_srv/main.go:35	port: 51990
+2023-09-03T15:48:29.416+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-03T15:49:28.727+0800	INFO	goods_srv/main.go:35	port: 53502
+2023-09-03T15:50:13.706+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-03T15:50:50.397+0800	INFO	goods_srv/main.go:35	port: 53570
+2023-09-03T15:51:02.199+0800	INFO	goods_srv/main.go:35	port: 53581
+2023-09-03T15:52:06.868+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-03T15:52:12.731+0800	INFO	goods_srv/main.go:35	port: 53623
+2023-09-03T15:52:37.806+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-03T15:52:43.601+0800	INFO	goods_srv/main.go:35	port: 53645
+2023-09-03T15:53:30.155+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-03T15:53:35.769+0800	INFO	initialize/db.go:43	init db success
+2023-09-03T15:53:35.774+0800	INFO	goods_srv/main.go:35	port: 53693
+2023-09-03T15:54:44.474+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-03T15:55:27.831+0800	INFO	initialize/db.go:42	init db success
+2023-09-03T15:55:27.834+0800	INFO	goods_srv/main.go:35	port: 53755
+2023-09-03T15:59:05.097+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-03T15:59:21.450+0800	INFO	initialize/db.go:42	init db success
+2023-09-03T15:59:24.085+0800	INFO	goods_srv/main.go:35	port: 53995
+2023-09-03T16:00:50.546+0800	INFO	initialize/db.go:42	init db success
+2023-09-03T16:00:50.548+0800	INFO	goods_srv/main.go:35	port: 54045
+2023-09-03T16:00:54.807+0800	INFO	handler/brands.go:18	call brand list
+2023-09-03T16:12:25.389+0800	INFO	initialize/db.go:42	init db success
+2023-09-03T16:12:25.392+0800	INFO	goods_srv/main.go:35	port: 54927
+2023-09-03T16:12:46.498+0800	INFO	initialize/db.go:42	init db success
+2023-09-03T16:12:46.501+0800	INFO	goods_srv/main.go:35	port: 54946
+2023-09-03T16:13:35.281+0800	INFO	initialize/db.go:42	init db success
+2023-09-03T16:13:35.284+0800	INFO	goods_srv/main.go:35	port: 54995
+2023-09-03T16:14:00.021+0800	INFO	initialize/db.go:42	init db success
+2023-09-03T16:14:00.023+0800	INFO	goods_srv/main.go:35	port: 55029
+2023-09-10T02:55:39.630+0800	INFO	initialize/db.go:42	init db success
+2023-09-10T02:55:39.632+0800	INFO	goods_srv/main.go:35	port: 49643
+2023-09-10T02:56:04.913+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T03:14:22.861+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T03:26:17.940+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T03:31:06.152+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T03:31:51.729+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T03:32:54.582+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T03:40:36.584+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T03:40:48.115+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T03:41:01.790+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T20:20:49.784+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T20:21:35.368+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T20:22:31.768+0800	INFO	initialize/db.go:42	init db success
+2023-09-10T20:22:31.770+0800	INFO	goods_srv/main.go:35	port: 64307
+2023-09-10T20:23:06.491+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T20:36:18.902+0800	INFO	handler/brands.go:31	call brand list
+2023-09-10T20:37:18.011+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-11T00:25:45.420+0800	INFO	initialize/db.go:42	init db success
+2023-09-11T00:25:45.424+0800	INFO	goods_srv/main.go:35	port: 52023
+2023-09-11T00:25:57.470+0800	INFO	handler/brands.go:33	call brand list
+2023-09-11T00:29:56.798+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-11T00:29:59.349+0800	INFO	initialize/db.go:42	init db success
+2023-09-11T00:29:59.351+0800	INFO	goods_srv/main.go:35	port: 52161
+2023-09-11T00:30:09.763+0800	INFO	handler/brands.go:33	call brand list
+2023-09-11T00:49:04.081+0800	INFO	goods_srv/main.go:87	注销成功
+2023-09-21T20:59:32.268+0800	INFO	initialize/db.go:42	init db success
+2023-09-21T20:59:32.270+0800	INFO	goods_srv/main.go:35	port: 50145
+2023-09-22T16:53:35.518+0800	INFO	goods_srv/main.go:85	注销失败
+2023-09-22T16:53:35.518+0800	INFO	goods_srv/main.go:87	注销成功

@@ -63,6 +63,7 @@ func (*UserServer) GetUserList(ctx context.Context, res *proto.PageInfo) (*proto
 		userInfoResp := UserModelToResp(user)
 		resp.Data = append(resp.Data, userInfoResp)
 	}
+	fmt.Println("lb")
 	return resp, nil
 }
 
@@ -119,7 +120,7 @@ func (*UserServer) CreateUser(ctx context.Context, res *proto.CreateUserInfo) (*
 func (*UserServer) CheckPassWord(ctx context.Context, req *proto.PasswordCheckInfo) (*proto.CheckResp, error) {
 	options := &password.Options{SaltLen: 16, Iterations: 100, KeyLen: 32, HashFunction: sha512.New}
 	passwordInfo := strings.Split(req.EncryptedPassword, "$")
-	check := password.Verify(req.Password, passwordInfo[1], passwordInfo[2], options)
+	check := password.Verify(req.Password, passwordInfo[2], passwordInfo[3], options)
 	return &proto.CheckResp{Success: check}, nil
 }
 

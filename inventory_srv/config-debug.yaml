@@ -1,0 +1,5 @@
+ipaddr: http://10.211.55.10
+port: 8848
+name_space_id: 2fbd707f-24f4-4a0f-8e0a-04392c6e4abb
+data_id: inventory_srv
+group: dev
