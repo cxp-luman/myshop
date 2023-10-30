@@ -1,0 +1,5 @@
+name: user-config
+port: 8021
+user_srv_info:
+  host: 127.0.0.1
+  port: 50051

@@ -1,0 +1,5 @@
+host: 10.211.55.10
+port: 8848
+name_space_id: b366a9cc-8b08-4210-af30-b19af17478d3
+data_id: goods-web
+group: dev

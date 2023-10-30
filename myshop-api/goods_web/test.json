@@ -1,0 +1,17 @@
+{
+    "redisInfo": {
+        "host": "10.211.55.10",
+        "port": 6379,
+        "password": 123456
+    },
+    "jwtInfo": {
+        "key": "stUL!$ViY3&Ce$JC2OVyN&w@^hqmipqV"
+    },
+    "consulInfo": {
+        "host": "10.211.55.10",
+        "port": 8500
+    },
+    "userSrvInfo": {
+        "name": "goods_srv"
+    }
+}
